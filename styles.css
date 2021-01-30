@@ -18,19 +18,7 @@ h1{
 form .texto-blanco{
     color: #fff;
     background-color:#025157;
-    background-color: #025157;
-    color: #fff;
-    border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 6px 20px;
-    margin-left: -10px;
-    height: 100%;
-    border-radius: 8px;
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;    
+    background-color: #025157;  
 }
 
 .email{
