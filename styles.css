@@ -3,6 +3,13 @@ body{
     background-color:#fffbf7;
 }
 
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
 h1{
     color: #025157;
 }
@@ -15,27 +22,31 @@ h1{
     color: #8b8b8bcc;
 }
 
-form .texto-blanco{
-    color: #fff;
-    background-color:#025157;
-    background-color: #025157;  
-}
-
-.email{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-form input {
+form {
+    height: 55px;
+  }
+  
+  input,
+  button {
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  input {
     border: 1px solid #b6b6b6;
     padding: 6px 20px;
     width: 60%;
     max-width: 250px;
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
+  }
+  
+  .texto-blanco {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+  }
 
 
