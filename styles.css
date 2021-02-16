@@ -601,5 +601,19 @@ margin: 0 auto;
     height: 40px;
   }
 
+.how-does-it-work .steps{
+  grid-template-columns: 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+  margin-left: unset;
+  margin-right: unset;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: relative;
+}
+
 }
 
