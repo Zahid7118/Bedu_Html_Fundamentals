@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;800;900&amp;display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;700;900&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;700;900&amp;family=Open+Sans:wght@300;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <title>Matcha</title>
 </head>
 <body>
     <!--Este es un nav en la cabecera-->
-     <section class="fixed-header">
+     <!-- <section class="fixed-header">
       <header class="header">
         <a href="#" class="logo">
           <img
@@ -34,7 +35,44 @@
           <button>Start free trial</button>
         </div>
       </header>
-    </section> 
+    </section>  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#" class="logo">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Platform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+          </ul>
+          
+          <form class="d-flex actions">
+            <a>Sign In</a>
+            <button>Start free trial</button>
+          </form>
+       
+        </div>
+      </div>
+    </nav>
+
 
   <!-- Esto es lo que se verá en el navegador web -->
   <section class="main">
@@ -218,7 +256,70 @@
           </div>
         </div>
       </article>
-     
+    </section>
+
+    <!--Práctica con css GRID-->
+    <section class="how-does-it-work">
+      <h2 class="title">How does Matcha wok?</h2>
+      <p class="description">
+        Your blog can be so much more than window dressing. Use Matcha’s
+        <a href="#">simple formula</a> to transform your blog into an ecommerce
+        growth engine.
+      </p>
+      <button>Explore the Platform</button>
+      <div class="steps">
+        <article class="card-step">
+          <div class="card-step-image">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png" alt="Publish" class="card-step-bg">
+            <div class="card-step-body">
+            <h3>Publish</h3>
+            <p>
+              Effortlessly fill your blog with content that shoppers want to
+              read.
+            </p>
+            <a href="#">Publish instantly →</a>
+          </div>
+        </article>
+        <article class="card-step">
+          <div class="card-step-image">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png" alt="Promote" class="card-step-bg">
+           </div>
+          <div class="card-step-body">
+            <h3>Promote</h3>
+            <p>
+              Use articles in email, social, and content ads to attract more
+              site visitors.
+            </p>
+            <a href="#">Drrive morer site visitors →</a>
+          </div>
+        </article>
+        <article class="card-step">
+          <div class="card-step-image">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png" alt="Capture" class="card-step-bg">
+            </div>
+          <div class="card-step-body">
+            <h3>Capture</h3>
+            <p>
+              Turn readers into email subscribers and subscribers into
+              customers.
+            </p>
+            <a href="#">Grow your email list →</a>
+          </div>
+        </article>
+        <article class="card-step">
+          <div class="card-step-image">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png" alt="Measure" class="card-step-bg">
+            </div>
+          <div class="card-step-body">
+            <h3>Measure</h3>
+            <p>
+              See what’s working and what’s not to easily optimize for more
+              traffic, email subscribers, and sales.
+            </p>
+            <a href="#">Track performance →</a>
+          </div>
+        </article>
+      </div>
     </section>
     
 
