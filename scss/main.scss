@@ -1,0 +1,98 @@
+@use 'global' as *;
+
+.blog{
+    background-color: $white;
+    max-width: unset;
+    padding: 5% 10%;
+
+    button{
+        height: auto;
+        border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+        border: none;
+        outline: none;
+        background-color: $dark-green-title;
+        color: $white;
+    }
+
+    .title{
+        @extend %base-title;
+    }
+
+    .process-list {
+        margin-top: 40px;
+        margin-bottom: 36px;
+        
+        .process {
+        display: flex;
+        margin-bottom: 25px;
+
+        & > div {
+            & > h3{
+                color: $dark-green-title;
+                margin-bottom: 0;
+                font-size: 30px;
+                font-weight: 500; 
+            }
+            & > p{
+                color: $dark-green-title;
+                margin-bottom: 0;
+            }        }
+
+            .process-icon{
+                width: 60px;
+                height: 60px;
+                margin-right: 10px;
+                text-align: center; 
+
+                img{
+                    height: 100%;
+                }
+
+            }
+        }
+        } 
+
+
+        .card{
+            .card-body{
+                & > h5{
+                    color: $color-texto-tarjeta;
+                    font-size: 24px;
+                }
+                .metadata{
+                    & > .category{
+                        color: $color-tarjeta;
+                    }
+                    & > .read-time{
+                        color: $color-ligth-gray;
+                    }
+                    
+                }
+
+                .card-text{
+                    color: $color-texto-tarjeta;
+                }
+                .author{
+                    display: flex;
+                    align-items: center;
+                    
+
+                    img{
+                        border-radius: 50%;
+                        width: 35px;
+                        height: 35px;
+                    }
+                    p{
+                        color: $color-texto-tarjeta;
+                        font-weight: 600;
+                        margin: 10px;
+                    }
+                }
+            }
+
+        }
+       
+}
